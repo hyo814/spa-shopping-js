@@ -1,0 +1,19 @@
+.product-details {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.product-image {
+    width: 50%;
+    float:left;
+}
+
+.product-info {
+    margin-top: 10px;
+    width: 48%;
+    float: right;
+}
+
+#back-button {
+    cursor:pointer;
+}

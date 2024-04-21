@@ -1,0 +1,22 @@
+#cart-list {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-item img {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+
+#back-button {
+    cursor:pointer;
+}
+

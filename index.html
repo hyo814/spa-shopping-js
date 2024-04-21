@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>product</title>
+    <link rel="stylesheet" href="style/products.css">
+</head>
+<body>
+<div>
+    <div>
+        <span class="container-title">Products</span>
+        <div id="cart-counter">장바구니 <span>0</span>개</div>
+    </div>
+    <div>
+        <select id="items-per-page">
+            <option value="10">10개</option>
+            <option value="20">20개</option>
+            <option value="30">30개</option>
+        </select>
+        <div id="search-area">
+            <label for="search-box">
+                <input type="text" id="search-box" placeholder="검색어를 입력하세요"/>
+            </label>
+            <button id="search-button">검색</button>
+        </div>
+    </div>
+    <div id="product-list"></div>
+    <div id="pagination"></div>
+</div>
+<script src="js/products.js"></script>
+</body>
+</html>
